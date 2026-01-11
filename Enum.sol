@@ -1,4 +1,5 @@
 contract enumr{
+// enum is user defined datatype which is used to store a set of named values
     enum shirtColor {Red, White, Green, blue}
     shirtColor option;
     shirtColor constant defaultoption = shirtColor.blue;
