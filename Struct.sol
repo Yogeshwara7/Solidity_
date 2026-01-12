@@ -1,5 +1,5 @@
 contract strucct {
-
+// struct is user defined data type which allows us to combine data of different data types
     struct Movie{
     uint movie_id;
     string directorName;
