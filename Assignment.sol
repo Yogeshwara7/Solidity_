@@ -1,4 +1,5 @@
 contract assignment{
+// Create a struct to represent a movie with title and director
     struct Movie{
         string name;
         string director;

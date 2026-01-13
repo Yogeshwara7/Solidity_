@@ -1,7 +1,7 @@
 contract arr {
 
     uint[] public changeArray;
-
+// dynamic array
     function removee(uint i) public{
         changeArray[i]=changeArray[changeArray.length-1];
         changeArray.pop();
@@ -12,7 +12,7 @@ contract arr {
             changeArray.push(i);
         }
     }
-
+// function to get length of array
     function len() view public returns(uint) {
        return  changeArray.length;
     }
