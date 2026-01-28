@@ -1,6 +1,7 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.0;
 
+// Visibility and Inheritance Assignment
 contract C{
     uint internal data;
     uint public info;
@@ -26,6 +27,7 @@ contract C{
         return(c);
     }
 }
+
 
 contract D{
     C public c;
